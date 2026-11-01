@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-COPY goserver /bin/goserver
+COPY bootdev-dockerized-server /bin/goserver
 
 CMD ["/bin/goserver"]
 
